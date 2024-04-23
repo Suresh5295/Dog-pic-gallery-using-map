@@ -3,22 +3,23 @@
     padding: 0;
 }
 .container {
-    display: flex;
-  align-items: center;
-  width: 400px;
-  justify-content: space-between;
+   
+ text-align: center;
   padding: 5px;
   border: solid black 1px;
-  margin-top: 10px;
+ 
+  margin: 10px;
+  width: fit-content;
   background-color: gray;
    
 }
-
-
-.center{
-   
-   display: flex;
-   flex-direction: column;
-    justify-content: center;
-    align-items:center;
+.ctr{
+  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows:repeat(2, 1fr);
+ 
+ 
 }
+
+
